@@ -14,7 +14,7 @@ public class Contador {
             // chama o método contendo a lógica do controle de fluxo (contagem)
             contar(parametroUm, parametroDois);
         } catch (ParametrosInvalidosException e) {
-            System.out.println(e);
+            System.out.println(e.toString());
         }
     }
 
